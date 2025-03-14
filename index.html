@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="cal__container">
+        <div class="cal__display">
+            <div id="cal__display__numbers"></div>
+        </div>
+        <div class="cal__buttons">
+            <button id="B0" onclick="fn0()">0</button>
+            <button id="B1" onclick="fn1()">1</button>
+            <button id="B2" onclick="fn2()">2</button>
+            <button id="B3" onclick="fn3()">3</button>
+            <button id="B4" onclick="fn4()">4</button>
+            <button id="B5" onclick="fn5()">5</button>
+            <button id="B6" onclick="fn6()">6</button>
+            <button id="B7" onclick="fn7()">7</button>
+            <button id="B8" onclick="fn8()">8</button>
+            <button id="B9" onclick="fn9()">9</button>
+            <button class="operator" id="plus" onclick="fnAdd()">+</button>
+            <button class="operator" id="minus" onclick="fnSubtract()">-</button>
+            <button class="operator" id="divide" onclick="fnDivide()">/</button>
+            <button class="operator" id="multiply" onclick="fnMultiply()">*</button>
+            <button id="clear" onclick="fnClear()">C</button>
+            <button id="equals" onclick="fnEquals()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
